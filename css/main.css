@@ -45,7 +45,8 @@ body {
 /*  ----------- 01 -End Base CSS   -----------*/
 /*  ----------- 02 -Start rules_started CSS   -----------*/
 .rules_started {
-  background-color: #645aff;
+  background: url("../files/background.png") no-repeat;
+  background-size: cover;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,7 +107,7 @@ body {
 
 .rules_started .button_start .btn {
   color: #fff;
-  background-color: #413692;
+  background-color: #322f5d;
   padding: 10px 20px;
   width: 78%;
   border-radius: 25px;
