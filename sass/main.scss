@@ -1,0 +1,103 @@
+/* --------------------------
+:: Template Name: Eventsia : Page 11
+:: Description: Page 11
+:: Created: 29/11/2020  MM/DD/YYYY
+-------------------------- */
+
+/* ----------------------
+[Table of contents]
+01.Base CSS
+02.Terms CSS
+
+ --------------------------*/
+
+/*  ----------- 01- Start Base CSS  ----------- */
+
+:root {
+  --main-black-color: #222;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  color: inherit !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+li {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+main {
+}
+
+/*  ----------- 01 -End Base CSS   -----------*/
+/*  ----------- 02 -Start rules_started CSS   -----------*/
+.rules_started {
+  background-color: #645aff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  .content {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 30px 30px 20px;
+    text-align: center;
+  }
+  .img_stack {
+    align-self: center;
+    margin-bottom: 70px;
+  }
+  .carousel-indicators {
+    position: static;
+  }
+  .carousel-inner {
+    margin-bottom: 15px;
+  }
+  .carousel-indicators li {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 1px #fff;
+    border: none !important;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .carousel-item p {
+    color: #fff;
+    font-size: 11px;
+  }
+  .button_start {
+    margin-top: 30px;
+  }
+  .button_start .btn {
+    color: #fff;
+    background-color: #322f5d;
+    padding: 10px 20px;
+    width: 78%;
+    border-radius: 25px;
+  }
+  .button_start .btn img {
+    width: 25px;
+    margin-left: 10px;
+  }
+}
+
+/*  ----------- 02 -End rules_started CSS   -----------*/

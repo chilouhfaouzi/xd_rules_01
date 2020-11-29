@@ -1,0 +1,121 @@
+/* --------------------------
+:: Template Name: Eventsia : Page 11
+:: Description: Page 11
+:: Created: 29/11/2020  MM/DD/YYYY
+-------------------------- */
+/* ----------------------
+[Table of contents]
+01.Base CSS
+02.Terms CSS
+
+ --------------------------*/
+/*  ----------- 01- Start Base CSS  ----------- */
+:root {
+  --main-black-color: #222;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+
+/*  ----------- 01 -End Base CSS   -----------*/
+/*  ----------- 02 -Start rules_started CSS   -----------*/
+.rules_started {
+  background-color: #645aff;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.rules_started .content {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  padding: 30px 30px 20px;
+  text-align: center;
+}
+
+.rules_started .img_stack {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 70px;
+}
+
+.rules_started .carousel-indicators {
+  position: static;
+}
+
+.rules_started .carousel-inner {
+  margin-bottom: 15px;
+}
+
+.rules_started .carousel-indicators li {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 2px 1px #fff;
+          box-shadow: 0px 0px 2px 1px #fff;
+  border: none !important;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.rules_started .carousel-item p {
+  color: #fff;
+  font-size: 11px;
+}
+
+.rules_started .button_start {
+  margin-top: 30px;
+}
+
+.rules_started .button_start .btn {
+  color: #fff;
+  background-color: #322f5d;
+  padding: 10px 20px;
+  width: 78%;
+  border-radius: 25px;
+}
+
+.rules_started .button_start .btn img {
+  width: 25px;
+  margin-left: 10px;
+}
+
+/*  ----------- 02 -End rules_started CSS   -----------*/
+/*# sourceMappingURL=main.css.map */
